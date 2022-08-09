@@ -6,7 +6,7 @@
      One time binding: ngModel="lastName" - Only binds the initial value of the component property and won't change if the value changes
   -->
   <form #form="ngForm" (submit)="onSubmit()" >
-    <input type="text" placeholder="Search city" name="city" [(ngModel)]="cityName">
+    <input type="text" placeholder="Search city" name="city" [(ngModel)]="searchedCity">
   </form>
 </div>
 
@@ -69,4 +69,6 @@
   </div>
 </div>
 
-<router-outlet></router-outlet>
+
+<!-- showing notifications on bottom of the screen -->
+<notifier-container></notifier-container>
