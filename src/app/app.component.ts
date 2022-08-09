@@ -39,7 +39,8 @@ export class AppComponent implements OnInit {
       },
       () => {
         this.cityName = this.searchedCity;
-        this.weatherData=this.savedResponse;
+        this.searchedCity = '';
+        this.weatherData = this.savedResponse;
         this.notifier.notify('success', 'Weather data successfully fetched');
       }
     );

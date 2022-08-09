@@ -8,7 +8,7 @@
     --white: #FFF;
     --grey-1: #EDEDED;
     --shadow-dark: rgba(0,0,0,0.3);
-    --shadow-light: rgba(151, 164, 252, 0.401);
+    --shadow-light: rgba(167, 239, 248, 0.642);
   }
   
   * {
@@ -92,6 +92,7 @@
   }
   
   .more-info-label {
+    text-align: center;
     color: var(--white);
   }
   
@@ -122,7 +123,7 @@
   }
   
   .info-block-label img {
-    width: 1.5em;
+    width: 2.1em;
   }
   
   .info-block-label span {
@@ -145,12 +146,12 @@
   }
   
   .search input {
-    background-color: var(--shadow-light);
+    background-color: var(--white);
     outline: none;
     border: none;
     border-radius: 20px;
     padding: 1em;
-    color: var(--grey-1);
+    color: var(--white);
     font-size: 0.8em;
     text-align: center;
   }
