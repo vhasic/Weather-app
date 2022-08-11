@@ -60,5 +60,3 @@ export interface WeatherData {
     sunset: number
   }
   
-
-  // ng build --output-path docs --base-href /Weather-app/
