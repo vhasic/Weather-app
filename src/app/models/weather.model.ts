@@ -1,4 +1,5 @@
-// This model is generated using https://transform.tools/json-to-typescript
+// 1. Format json response with: https://jsonformatter.curiousconcept.com/
+// 2. Generate model from formatted json: https://transform.tools/json-to-typescript
 
 export interface WeatherData {
     coord: Coord
@@ -58,3 +59,4 @@ export interface WeatherData {
     sunrise: number
     sunset: number
   }
+  
